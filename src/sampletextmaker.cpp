@@ -19,7 +19,12 @@ using namespace std;
 using namespace cv;
 using namespace boost::filesystem;
 
+//Written by Trevor Russo at CMU's SBPL
+//Rosnode designed to take rgb images with a camera
+
+
 //Takes depth image and saves it
+
 
 Mat im;
 
@@ -51,7 +56,7 @@ void UILoop(const ros::TimerEvent&){
         int numPics=0;
         bool doneWithPics=false;
         string answer;
-	string ext= ".png";
+	string ext= ".jpg";
 	time_t t = time(NULL);
 	tm * timePtr = localtime(&t);
 	string timeName = to_string(timePtr->tm_year + 1900)+"-"+to_string(timePtr->tm_mon)+"-"+to_string(timePtr->tm_mday)+"-"+to_string(timePtr->tm_hour)+"-"+to_string(timePtr->tm_min)+"-"\
