@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/trevor/masker/masker.cpp
+iostream
+-
+string
+-
+opencv2/opencv.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/core/core.hpp
+-
+cstdio
+-
+opencv2/imgproc/imgproc.hpp
+/home/trevor/masker/opencv2/imgproc/imgproc.hpp
+opencv2/core/core.hpp
+/home/trevor/masker/opencv2/core/core.hpp
+opencv2/core/core_c.h
+/home/trevor/masker/opencv2/core/core_c.h
+opencv2/core/types_c.h
+/home/trevor/masker/opencv2/core/types_c.h
+

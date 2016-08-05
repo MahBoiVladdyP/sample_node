@@ -1,0 +1,1 @@
+/home/trevor/masker/build/CMakeFiles/masker.dir
